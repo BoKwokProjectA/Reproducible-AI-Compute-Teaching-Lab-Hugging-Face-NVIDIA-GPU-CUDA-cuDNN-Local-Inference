@@ -1,0 +1,29 @@
+# Model artefacts - large, and rebuilt by rerunning src/train.py
+models/
+*.safetensors
+*.bin
+*.pt
+
+# Hugging Face / dataset caches
+.cache/
+data/
+
+# Secrets. HF and GitHub tokens go in the environment, never in a file.
+.env
+*.token
+hf_token*
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+.vscode/
+.idea/
+.DS_Store
+
+Untitled*.ipynb
+uvicorn.log
+sample_leaf.jpg
