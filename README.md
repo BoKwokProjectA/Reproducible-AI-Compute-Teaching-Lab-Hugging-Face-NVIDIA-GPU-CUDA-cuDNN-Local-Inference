@@ -1,4 +1,4 @@
-# Reproducible NVIDIA GPU + Hugging Face AI Teaching Lab
+# Reproducible NVIDIA GPU and Hugging Face AI Compute Teaching Lab 
 
 This project fine-tunes a Hugging Face Vision Transformer on the beans leaf-disease dataset, runs inference on GPU or CPU, and exposes the model through a small FastAPI service.
 
